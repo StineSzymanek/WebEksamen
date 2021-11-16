@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(190, 230, 236);
+    background-color: rgb(119, 0, 255);
     margin-bottom: 2rem;
 }
 
@@ -27,6 +27,7 @@ li {
 
 li > a {
     text-decoration: none;
+    color: white;
 }
 
 .universallist li {
@@ -39,7 +40,8 @@ body {
     margin-top: 0;
     padding-top: 0%;
     font-family: 'Lato', sans-serif;
-    background-color: rgb(231, 251, 253);
+    font-size: 20px;
+    background-color: white;
 }
 
 main {
