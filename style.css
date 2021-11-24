@@ -10,7 +10,7 @@ header {
     padding: 2rem;
 }
 
-.navbar > ul {  
+ul {  
     display: flex;
     gap: 1em;
 }
@@ -21,7 +21,15 @@ li {
 
 li > a { 
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
     color: white;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: rgb(117, 19, 230);
 }
 
 .universallist li {
@@ -60,12 +68,35 @@ img {
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 600px) {
-    header {
-        overflow: hidden;
+.menu {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: rgb(119, 0, 255);
+    padding: 10px 0;
+    display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+
+@media screen and (max-width: 800px){
+    .menu {
+        display: block;
     }
 
-    li a {
-        font-size: 16px;
+    ul {
+        display: none;
+    }
+
+    li {
+        padding: 5px 0;
+        text-align: center;
     }
 }
