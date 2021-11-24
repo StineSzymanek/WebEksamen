@@ -10,12 +10,6 @@ header {
     padding: 2rem;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navbar > ul {  
     display: flex;
     gap: 1em;
@@ -25,7 +19,7 @@ li {
     list-style: none;
 }
 
-li > a {
+li > a { 
     text-decoration: none;
     color: white;
 }

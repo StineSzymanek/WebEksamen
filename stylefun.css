@@ -10,12 +10,6 @@ header {
     padding: 2rem;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navbar > ul {  
     display: flex;
     gap: 1em;
@@ -72,13 +66,6 @@ img {
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     text-align: center;
-    /*
-    display: grid;
-    grid-template-rows: 50px 1fr 2fr;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    align-items: center;
-    */
 }
 
 h2 {
