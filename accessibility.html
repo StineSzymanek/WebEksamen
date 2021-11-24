@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Accessibility</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -21,28 +23,36 @@
     </header>
     <main>
         <h1>Accessibility</h1>
-        <p>This page is about accessibility and how we tested for it using an automated test, and the choices we made for 
+        <p>This page is about accessibility and how we tested for it using an automated test, and the choices we made
+            for
             universal design beyond the automated test.
         </p>
         <h2>Choices for universal design</h2>
         <p>
-            We tried to keep accessibility and universal design in mind while we were creating the site. 
-            We tried to make sure our HTML elements were structured properly so that tools like screen readers would work 
-            properly on our site. Elements that can be clicked also need to be keyboard focusable. 
-            The only elements on our site that you can click are the links in the navigation bar. 
-            Those are already keyboard focusable, but we checked it using “inspect element” on our website and hovering 
-            over the elements. There you can see some accessibility information, and it showed that the links were keyboard 
-            focusable. When choosing the colors of our page, we had to keep the contrast between text and background high 
-            enough so that people with vision impairment can still see the text clearly. There is information about the 
+            We tried to keep accessibility and universal design in mind while we were creating the site.
+            We tried to make sure our HTML elements were structured properly so that tools like screen readers would
+            work
+            properly on our site. Elements that can be clicked also need to be keyboard focusable.
+            The only elements on our site that you can click are the links in the navigation bar.
+            Those are already keyboard focusable, but we checked it using “inspect element” on our website and hovering
+            over the elements. There you can see some accessibility information, and it showed that the links were
+            keyboard
+            focusable. When choosing the colors of our page, we had to keep the contrast between text and background
+            high
+            enough so that people with vision impairment can still see the text clearly. There is information about the
             contrast when you hover over elements when inspecting the page, and the contrast was high enough.
         </p>
         <h2>The automated test</h2>
         <p>
-            The automated test “AChecker” told us there were no problems with our site, so we tried another accessibility tool 
-            called “WAVE”. We learned that “Image of…” should be avoided in alternative text for images because screen readers and 
-            browser presentation already inform the users that the element is an image. Other than that, the accessibility checker 
-            didn’t show us any problems. 
+            The automated test “AChecker” told us there were no problems with our site, so we tried another
+            accessibility tool
+            called “WAVE”. We learned that “Image of…” should be avoided in alternative text for images because screen
+            readers and
+            browser presentation already inform the users that the element is an image. Other than that, the
+            accessibility checker
+            didn’t show us any problems.
         </p>
     </main>
 </body>
+
 </html>
