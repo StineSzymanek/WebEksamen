@@ -35,6 +35,7 @@ a:hover {
 
 .universallist li {
     list-style-type: style;
+    list-style-position: inside;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
