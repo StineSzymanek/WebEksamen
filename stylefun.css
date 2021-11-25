@@ -8,6 +8,7 @@ header {
     background-color: rgb(108, 235, 255);
     margin-bottom: 2rem;
     padding: 2rem;
+    box-shadow: 1px 1px 5px 0;
 }
 
 ul {  
@@ -66,6 +67,7 @@ img {
 .menu {
     font-size: 22px;
     text-transform: uppercase;
+    text-decoration: underline;
     text-align: center;
     color: black;
     background-color: rgb(108, 235, 255);

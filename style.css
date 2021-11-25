@@ -8,6 +8,7 @@ header {
     background-color: rgb(119, 0, 255);
     margin-bottom: 2rem;
     padding: 2rem;
+    box-shadow: 1px 1px 5px 0;
 }
 
 ul {  
@@ -68,9 +69,20 @@ img {
     margin-bottom: 2rem;
 }
 
+.part {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.part p {
+    margin: 0rem 2rem 2rem 2rem;
+}
+
 .menu {
     font-size: 22px;
     text-transform: uppercase;
+    text-decoration: underline;
     text-align: center;
     color: white;
     background-color: rgb(119, 0, 255);
@@ -98,5 +110,13 @@ input[type=checkbox]:checked ~ ul {
     li {
         padding: 10px 0;
         text-align: center;
+    }
+
+    .part {
+        flex-direction: column;
+    }
+
+    .part p {
+        margin: 2rem 0;
     }
 }
