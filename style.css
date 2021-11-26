@@ -60,7 +60,7 @@ h1, h2 {
 
 p {
     margin-bottom: 2rem;
-    line-height: 2rem;
+    line-height: 1.8;
 }
 
 img {
@@ -70,13 +70,14 @@ img {
     margin-bottom: 2rem;
 }
 
-.part {
+/* Reflection page - images and paragraphs put into a box*/
+.box { 
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
 
-.part p {
+.box p {
     margin: 0rem 2rem 2rem 2rem;
 }
 
@@ -88,7 +89,7 @@ img {
     color: white;
     background-color: rgb(119, 0, 255);
     padding: 10px 0;
-    display: none;
+    display: none; /* The menu button is not displayed by default*/
 }
 
 input[type=checkbox]{
@@ -103,9 +104,9 @@ input[type=checkbox]:checked ~ ul {
     .menu {
         display: block;
     }
-
+    
     ul {
-        display: none;
+        display: none; /* Links not displayed until Menu is clicked*/
     }
 
     li {
@@ -113,11 +114,11 @@ input[type=checkbox]:checked ~ ul {
         text-align: center;
     }
 
-    .part {
+    .box {
         flex-direction: column;
     }
 
-    .part p {
-        margin: 2rem 0;
+    .box p {
+        margin: 0 0 2rem 0;
     }
 }
