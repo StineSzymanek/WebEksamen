@@ -53,9 +53,13 @@
             accessibility tool
             called “WAVE”. We learned that “Image of…” should be avoided in alternative text for images because screen
             readers and
-            browser presentation already inform the users that the element is an image. Other than that, the
-            accessibility checker
-            didn’t show us any problems.
+            browser presentation already inform the users that the element is an image. We have an input with the role of a button,
+            used to make the mobile navigation bar. This should usually be replaced with a true button for accessibility purposes
+            so that it is keyboard focusable. We wanted to do it this way to avoid JavaScript and to show what you could do using
+            HTML and CSS, and since it was only for the mobile view we decided to keep it this way. To make it keyboard focusable
+            we could have used a link with JavaScript that toggles between showing and hiding the navigation menu when clicked.
+            Other than that, the accessibility checker didn’t show us any problems except for on our "Fun page" where accessibility
+            wasn't to be concerned about.
         </p>
     </main>
 </body>
