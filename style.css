@@ -30,6 +30,10 @@ li > a {
 }
 
 a:hover {
+    background-color: rgb(219, 215, 215);
+}
+
+header a:hover {
     background-color: rgb(117, 19, 230);
 }
 
